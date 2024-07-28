@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1{
+   color: black;
+   text-align: center;
+}
+
+#playAgainButton{
+   background-color: black;
+   color: white;
+   padding: 15px 32px;
+   text-align:center;
+   text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+body {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+canvas {
+    background-color: black;
+    border: 1px solid white;
+}
